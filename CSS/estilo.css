@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../IMAGENS/bg-login.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 150px auto;
+}
+
+#corpo-form-cad{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 100px auto;
+}
+
+#corpo-form h1, #corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #42FF62;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=submit]:hover{
+    background-color: #14BD30;
+    color: white;
+    transition: 250ms;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF;
+    opacity: 1 !important; /* for older chrome versions. may no longer apply. */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #FFF;
+    opacity: 1 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #FFF;
+    opacity: 1 !important;
+}
+
+:-ms-input-placeholder {  
+   color: #FFF;
+}
