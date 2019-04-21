@@ -47,7 +47,7 @@
 
                         ?>
                         <div id="msg-sucesso">
-
+                        Cadastrado com sucesso! Acesse para entrar!
                         </div>
                         <?php
 
@@ -55,7 +55,7 @@
 
                         ?>
                         <div class="msg-erro">
-
+                        Email ja cadastrado!
                         </div>
                         <?php
 
@@ -65,7 +65,7 @@
 
                     ?>
                     <div class="msg-erro">
-
+                    Senha e confirmar senha não correspondem
                     </div>
                     <?php
 
@@ -86,7 +86,7 @@
 
             ?>
             <div class="msg-erro">
-
+            Preencha todos os campos!
             </div>
             <?php
 
