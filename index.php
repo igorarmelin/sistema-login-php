@@ -30,7 +30,7 @@
         //verificar se nao ha campos vazios
         if(!empty($email) && !empty($senha)){
 
-            $u->conectar("sistema_login", "localhost", "root", "*2Z>1Pm.");
+            $u->conectar("tela_login", "localhost", "root", "");
             if($u->msgErro == ""){
                 if($u->logar($email, $senha)){
 

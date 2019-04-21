@@ -38,7 +38,7 @@
         //verificar se nao ha campos vazios
         if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confirmarSenha)){
 
-            $u->conectar("sistema_login", "localhost", "root", "*2Z>1Pm.");
+            $u->conectar("tela_login", "localhost", "root", "");
             if($u->msgErro == ""){//sem erro
 
                 if($senha == $confirmarSenha){
